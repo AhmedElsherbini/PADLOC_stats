@@ -13,7 +13,7 @@ import argparse
 import openpyxl
 #########################################
 my_parser = argparse.ArgumentParser(description='Welcome!')
-print("example: $ python bakta_stat.py -i ./txt -p CM")
+print("example: $ python pad_loc_stats.py -i ./txt -p Corynebacterium")
 
 
 
@@ -41,6 +41,8 @@ ff = args.prefix
 ############################################
 #path = "/media/ahmed/CC69-620B6/00_Ph.D/DATA_results/0_accolens_prop_database_work/0_analysis/27_padLOC_immunity"
 
+#os.chdir(path)
+
 all_files = glob.glob(os.path.join(path, "*.csv"))
 
 df = pd.concat((pd.read_csv(f) for f in all_files), ignore_index=True)
@@ -62,12 +64,14 @@ df1 = df1.drop_duplicates(subset=['system'])
 df1['relative_freq'] = df1[['freq']].div(int(len(all_files)), axis=0)
 
 df1 = df1.sort_values('relative_freq', ascending=False)
+os.chdir(path)
+
 df1.to_excel("%s_frequency.xlsx"%(ff),index=False)
 
 ########################################################
 #path = "/media/ahmed/CC69-620B6/00_Ph.D/DATA_results/0_accolens_prop_database_work/0_analysis/27_padLOC_immunity"
 
-os.chdir(path)
+#os.chdir(path)
 file_names = os.listdir()
 
 ###########################################
@@ -93,4 +97,5 @@ melted = melted.drop(melted.columns[1], axis=1)
 melted = melted.sort_values('index')
 matrix =  pd.crosstab(melted['index'], melted['value'])
 #file_name = 'Matrix.xlsx'
-matrix.to_excel("%s_presnse_absense.xlsx"%(ff),index=True)
+
+matrix.to_excel("%s_presence absence.xlsx"%(ff),index=True)
