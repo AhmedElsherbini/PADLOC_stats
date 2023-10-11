@@ -26,7 +26,7 @@ Currently, two Excel files.
 
 1- "prefix"_frequency.xlsx (The general one).
 
-Here you you have the "frequency" of each system in your genomes and a relative frequency. Well, the relative frequency is the outcome of dividing the frequency/ number of genomes.
+Here you have the "frequency" of each system in your genomes and a relative frequency. Well, the relative frequency is the outcome of dividing the frequency/ number of genomes.
 
 
 2- "prefix"_presence absence.xlsx  (The detailed one).
