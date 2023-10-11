@@ -28,9 +28,8 @@ The General one.
 
 Here you you have the "frequency" of each system in your genomes and a relative frequency. Well, the relative frequency is the outcome of dividing the frequency/ number of genomes.
 
-The detailed one.
 
-2- "prefix_"presence absence.xlsx
+2- "prefix_"presence absence.xlsx  (The detailed one).
 
 It is a matrix, but the presence or absence (1/0) of each system in each genome. Very good to fit in heatmaps.
 
