@@ -13,7 +13,7 @@ Just type this command and you will get two Excel sheets in the same folder of y
 
 "-i /--input_dir"  is your path to the directory of txt files 
 
-"-p /--prefix"  is your preferred prefix for this work
+"-p /--prefix"  is your preferred prefix for your run
 
 ```python
  python padloc_stats.py -i ./txt -p Corynebacterium
