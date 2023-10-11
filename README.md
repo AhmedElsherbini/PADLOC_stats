@@ -9,7 +9,7 @@
 
 You shall have the summary.txt files in one folder and these dependencies (pandas, openpyxl ,and argparse)
 
-Just type this command and you will get the Excel sheet in the same folder of your txt files.
+Just type this command and you will get two Excel sheets in the same folder of your txt files.
 
 "-i /--input_dir"  is your path to the directory of txt files 
 
