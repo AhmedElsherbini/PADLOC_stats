@@ -2,7 +2,7 @@
 
 **What is this script?**
 
-[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defence locator. However, if you used it for many genomes, and you want to merge the basic summary (_padloc.csv) stats  into one Excel sheet, then this simple Python3 script shall do this job.
+[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defence locator. However, if you used it for many genomes, and you want to summarize the many basic summary (_padloc.csv) stats into an overview Excel sheet , then this simple Python3 script shall do this job.
 
 
 **What do you need?**
