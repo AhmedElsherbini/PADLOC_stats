@@ -7,11 +7,11 @@
 
 **What do you need?**
 
-You shall have the summary.txt files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
+You shall have the pad_loc.csv files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
 
-Just type this command and you will get two Excel sheets in the same folder of your txt files.
+Just type this command and you will get two Excel sheets in the same folder of your csv files.
 
-"-i /--input_dir"  is your path to the directory of txt files 
+"-i /--input_dir"  is your path to the directory of csv files 
 
 "-p /--prefix"  is your preferred prefix for your run
 
