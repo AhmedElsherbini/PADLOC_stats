@@ -2,7 +2,7 @@
 
 **What is this script?**
 
-[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defence locator. However, if you used it for many genomes, and you want to summarize the many basic summary (_padloc.csv) stats into an overview Excel sheet, then this simple Python3 script shall do this job.
+[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defense systems locator. However, if you used it for many genomes, and you want to summarize the many basic summary (_padloc.csv) stats into an overview Excel sheet, then this simple Python3 script shall do this job.
 
 
 **What do you need?**
@@ -24,12 +24,12 @@ Just type this command and you will get two Excel sheets in the same folder of y
 
 Currently, two Excel files.
 
-1- "prefix"_frequency.xlsx (The general one).
+1- "prefix"_frequency.xlsx (The general one like per run).
 
-Here you have the "frequency" of each system in your genomes and a relative frequency. Well, the relative frequency is the outcome of dividing the frequency/ number of genomes.
+Here you have the "frequency" of each system in your genomes and a relative frequency. Well, what is the relative frequency? The relative frequency is the outcome of dividing the frequency/ number of genomes.
 
 
-2- "prefix"_presence absence.xlsx  (The detailed one).
+2- "prefix"_presence absence.xlsx  (The more detailed one).
 
 It is a matrix, with a presence or absence (1/0) of each system in each genome. Very good to fit in heatmaps.
 
