@@ -24,7 +24,7 @@ Just type this command and you will get two Excel sheets in the same folder of y
 
 Currently, two Excel files.
 
-1- "prefix"_frequency.xlsx (The general one summary of the whole run).
+1- "prefix"_frequency.xlsx (The general one like a summary of systems per the whole run).
 
 Here you have the "frequency" of each system in your genomes and a relative frequency. Well, what is the relative frequency? The relative frequency is the outcome of dividing the frequency/ number of genomes.
 
