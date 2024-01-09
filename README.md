@@ -31,6 +31,11 @@ Here you have the "frequency" of each system in your genomes and a relative freq
 
 2- "prefix"_presence absence.xlsx  (The more detailed one).
 
-It is a matrix, with a presence or absence (1/0) of each system in each genome. Very good to fit in heatmaps.
+It is a matrix, with a presence or absence (1/0) of each system in each genome. Very good to fit in heatmaps in the next section.
+
+**What about visualization?**
+
+Well, nothing better than R for this, a simple (and redundant) example for heatmap exist in the defensome.R
+
 
 Thanks
