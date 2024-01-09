@@ -98,4 +98,4 @@ melted = melted.sort_values('index')
 matrix =  pd.crosstab(melted['index'], melted['value'])
 #file_name = 'Matrix.xlsx'
 
-matrix.to_excel("%s_presence absence.xlsx"%(ff),index=True)
+matrix.to_excel("%s_presence_absence.xlsx"%(ff),index=True)
