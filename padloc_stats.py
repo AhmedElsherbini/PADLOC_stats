@@ -66,7 +66,7 @@ df1['relative_freq'] = df1[['freq']].div(int(len(all_files)), axis=0)
 df1 = df1.sort_values('relative_freq', ascending=False)
 os.chdir(path)
 
-df1.to_excel("%s_frequency.xlsx"%(ff),index=False)
+df1.to_csv("%s_frequency.xlsx"%(ff),index=False)
 
 ########################################################
 #path = "/media/ahmed/CC69-620B6/00_Ph.D/DATA_results/0_accolens_prop_database_work/0_analysis/27_padLOC_immunity"
@@ -98,4 +98,4 @@ melted = melted.sort_values('index')
 matrix =  pd.crosstab(melted['index'], melted['value'])
 #file_name = 'Matrix.xlsx'
 
-matrix.to_excel("%s_presence_absence.xlsx"%(ff),index=True)
+matrix.to_csv("%s_presence_absence.xlsx"%(ff),index=True)
