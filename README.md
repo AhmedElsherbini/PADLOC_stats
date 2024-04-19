@@ -22,14 +22,14 @@ Just type this command and you will get two Excel sheets in the same folder of y
 **What do you get?**
 
 
-Currently, two Excel files.
+Currently, two CSV files.
 
-1- "prefix"_frequency.xlsx (The general one like a summary of systems per the whole run).
+1- "prefix"_frequency.csv (The general one like a summary of systems per the whole run).
 
 Here you have the "frequency" of each system in your genomes and a relative frequency. Well, what is the relative frequency? The relative frequency is the outcome of dividing the frequency/ number of genomes.
 
 
-2- "prefix"_presence absence.xlsx  (The more detailed one).
+2- "prefix"_presence absence.csv  (The more detailed one).
 
 It is a matrix, with a presence or absence (1/0) of each system in each genome. Very good to fit in heatmaps in the next section.
 
