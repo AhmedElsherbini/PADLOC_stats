@@ -6,7 +6,7 @@
 
 
 **What do you need?**
-
+ImportantL I have developed this script in python 3.9
 You shall have the _padloc.csv files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
 
 Just type this command and you will get two Excel sheets in the same folder of your csv files.
