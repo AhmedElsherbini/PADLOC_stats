@@ -6,12 +6,13 @@
 
 
 **What do you need?**
-ImportantL I have developed this script in python 3.9
+ImportantL I have developed this script in python 3.9.
+
 You shall have the _padloc.csv files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
 
-Just type this command and you will get two Excel sheets in the same folder of your csv files.
+Just type this command and you will get two Excel sheets in the same folder of your CSV files.
 
-"-i /--input_dir"  is your path to the directory of csv files 
+"-i /--input_dir"  is your path to the directory of CSV files 
 
 "-p /--prefix"  is your preferred prefix for your run
 
@@ -20,7 +21,6 @@ Just type this command and you will get two Excel sheets in the same folder of y
 ```
 
 **What do you get?**
-
 
 Currently, two CSV files.
 
@@ -35,7 +35,7 @@ It is a matrix, with a presence or absence (1/0) of each system in each genome. 
 
 **What about visualization?**
 
-Well, nothing better than R for this, a simple (and redundant) example for heatmap exist in the defensome.R
+Well, nothing better than R for this, a simple (and redundant) example for heatmap exists in the defensome.R
 
 
 Thanks
