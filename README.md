@@ -2,7 +2,7 @@
 
 **What is this script?**
 
-[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defense systems locator. However, if you used it for many genomes, and you want to summarize the many basic summary (_padloc.csv) stats into an overview Excel sheet, then this simple Python3 script shall do this job.
+[PADLOC](https://github.com/padlocbio/padloc) is a great tool for antiviral defense systems locator. However, if you used it for many genomes, and you want to summarize the many basic summary (_padloc.csv) stats into an overview CSV sheet, then this simple Python3 script shall do this job.
 
 
 **What do you need?**
@@ -10,7 +10,7 @@ ImportantL I have developed this script in python 3.9.
 
 You shall have the _padloc.csv files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
 
-Just type this command and you will get two Excel sheets in the same folder of your CSV files.
+Just type this command and you will get two CSV sheets in the same folder of your CSV files.
 
 "-i /--input_dir"  is your path to the directory of CSV files 
 
