@@ -6,7 +6,8 @@
 
 
 **What do you need?**
-ImportantL I have developed this script in python 3.9.
+
+Important: this script was written in Python 3.9.
 
 You shall have the _padloc.csv files in one folder and these dependencies (pandas, openpyxl ,glob,and argparse)
 
